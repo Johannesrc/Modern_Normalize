@@ -189,6 +189,6 @@ object {
 
 // Selection
 ::selection {
-  background-color: transparentize(#000, 0.8);
+  background-color: color.adjust(#000, $alpha: -0.8);
   text-shadow: none;
 }
